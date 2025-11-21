@@ -16,6 +16,8 @@ with col3:
     st.header("Q3 2024")
     st.write("Revenue: $1.3M")
 
+tab1, tab2, tab3 = st.tabs(["Sales Data", "Customer Insights", "Market Trends"])
+
 with tab1:
     st.write("Content for Sales Data")
     sales_data = {
